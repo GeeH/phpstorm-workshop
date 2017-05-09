@@ -1,16 +1,19 @@
-Committing Changes
+# Committing Changes
 
-Persisting the current changeset as a logical operation in the VCS, with a comment, author, ...
-
-Ctrl+K (Windows/Linux)
-Command+K (Mac OS X)
+> ### Commit Changes
+>
+> Ctrl+K (Windows/Linux)
+>
+> Command+K (Mac OS X)
+>
+> Persisting the current changeset as a logical operation in the VCS, with a comment, author, etc.
 
 1. Commit the current changeset to the Git repository using Commit Changes.
 2. The list on top shows changed, added and deleted files.
    Set the commit message to something describing the logical change.
    In this case this can be "Initial commit" but for a typical change to the code base it would be a bug or issue
    number and a short description.
-   Note that the IDE can automatically reformat code, optimize imports and warn us about open TODO comments in code.
+   > NOTE: The IDE can automatically reformat code, optimize imports and warn us about open TODO comments in code.
    We can also upload changes to a remote server once they are committed.
 3. Commit the change.
 4. The Project Tool Window will now show files in a neutral color, meaning they are unchanged and in the VCS.
