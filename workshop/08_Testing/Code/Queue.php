@@ -21,4 +21,5 @@ class Queue
     {
         return array_shift($this->_store);
     }
+
 }
