@@ -5,10 +5,11 @@
 // 1. Install the Karma plugin (IDE Settings | Plugins).
 // 2. Install the Karma test runner on your system using NPM:
 //      npm install -g karma
-//      (or use Project Settings | Node.js and NPM, search Karma and add the -g install option)
+//      (or use Settings | Languages and Frameworks | JavaScript | Node.js and NPM, search Karma and add the -g install
+//      option)
 // 3. Make sure a Karma configuration is created. Either rename karma.conf.js.sample to karma.conf.js or set it up manually.
 //
-//    Manual steps: Open a terminal (Tools | Open Terminal) and initialize karma in the current folder.
+//    Manual steps: Open a terminal (View | Tool Windows | Terminal) and initialize karma in the current folder.
 //      cd "08_Testing"
 //      karma init
 //
@@ -19,16 +20,17 @@
 //    - For excluding files, leave an empty string. More info can be found in the Karma documentation.
 //    - For automatically running, select "no". When enabled, this will automatically run unit tests whenever
 //      code or tests are changed.
+
 // 4. Create anew run configuration based on Karma. Specify a name, the path to Node.js
 //    and to the karma.conf.js we just created.
 // 5. Run the configuration. Note that Karma will open a browser and run the unit tests defined below.
 //    Test results are visible in the IDE.
 
-describe("Sample test suite", function() {
-    it("a boolean true should be true", function() {
+describe("Sample test suite", function () {
+    it("a boolean true should be true", function () {
         expect(true).toBe(true);
     });
-    it("a boolean false should be false", function() {
+    it("a boolean false should be false", function () {
         expect(false).toBe(false);
     });
 });
